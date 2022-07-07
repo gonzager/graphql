@@ -1,6 +1,6 @@
 # DEMO de GRAPHQL
 
-## Qué es GraphQL
+## ¿Qué es GraphQL?
 Es una especificación de un patrón de comunicación entre un cliente y un servidor
 
 ## Proyecto spring-boot en JAVA 11 que implementa [DGS](https://netflix.github.io/dgs/getting-started/) para GRAPHQL
@@ -48,7 +48,7 @@ El proyecto levanta una interfaces tipo swagger donde se puede probar los querie
 
 ### Postman
 Hay que pegarle al siguiente endpoint de la aplicación /graphql con un POST [EndPoint](http://localhost:8081/graphql)
-![Postman](Postman.PNG)
+![Postman](POSTMAN.PNG)
 
 ### Codigo de un query
 ```aidl
