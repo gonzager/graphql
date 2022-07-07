@@ -47,7 +47,7 @@ El proyecto levanta una interfaces tipo swagger donde se puede probar los querie
 ![Grapiql](Graphiqp.PNG)
 
 ### Postman
-Hay que pegarle al siguiente endpoint de la aplicación /graphql con un POST [EndPoint](http://localhost:8081/graphql)
+Hay que pegarle al siguiente endpoint de la aplicación /graphql con un a POST [EndPoint](http://localhost:8081/graphql)
 ![Postman](POSTMAN.PNG)
 
 ### Codigo de un query
