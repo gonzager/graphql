@@ -1,0 +1,46 @@
+
+
+type Query {
+    profesores(nombreFilter: String): [Profesor]
+    profesor(idProfesor: Int): Profesor
+}
+
+type Profesor {
+    id: Int
+    nombre: String
+    apellido: String
+    anioComienzo: Int
+    puntajeDocente: Int
+    materias: [Materia]
+}
+
+type Materia {
+    nombre: String
+    anio: Int
+    codigo: String
+    cargaHoraSemanal: Int
+}
+
+type Mutation {
+    agregarProfesor(profesorInput: ProfesorInput): Profesor
+    actualizarProfesor(updateProfesor: UpdateProfesor): Profesor
+    agregarMateria(idProfesor: Int, materiaInput: MateriaInput): Profesor
+}
+
+input ProfesorInput {
+    nombre: String
+    apellido: String
+    anioComienzo: Int
+    puntajeDocente: Int
+}
+
+input UpdateProfesor {
+    id: Int
+    nombre: String
+    apellido: String
+}
+
+input MateriaInput {
+    id: Int
+    nombre: String
+}
